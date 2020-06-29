@@ -1,8 +1,7 @@
 import React from 'react';
 import './App.scss';
+import { Greeting } from './components/Greeting';
 
-const App = () => (
-    <h1>Hello, human!</h1>
-);
+const App = () => <Greeting name="human" />;
 
 export default App;
